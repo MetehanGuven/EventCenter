@@ -1,0 +1,89 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .top-bar {
+    background-color: #1976d2;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-card {
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: white;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .event-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-content {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .card-description {
+    color: #555;
+    font-size: 14px;
+  }
+  
+  .card-buttons button {
+    border-radius: 20px;
+    padding: 5px 20px;
+  }
+  
+  .card-buttons button:first-child {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .card-buttons button:first-child:hover {
+    background-color: #45a045;
+  }
+  
+  .card-buttons button:last-child {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .card-buttons button:last-child:hover {
+    background-color: #d32f2f;
+  }
+  
+  .drawer-list-item {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .drawer-list-item:hover {
+    background-color: #e0e0e0;
+    border-radius: 4px;
+  }
+  
